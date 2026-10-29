@@ -1,0 +1,17 @@
+import java.util.TreeSet;
+
+public class edu {
+    public static void main(String[] args) {
+        TreeSet<String> names = new TreeSet<>();
+
+        names.add("Asha");
+        names.add("Rahul");
+        names.add("Meera");
+
+        System.out.println(names);
+        
+        for (String name : names) {
+            System.out.println(name);
+        }
+    }
+}
