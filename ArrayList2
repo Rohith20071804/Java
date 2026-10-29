@@ -1,0 +1,14 @@
+import java.util.HashSet;
+
+public class Illustrate {
+    public static void main(String[] args) {
+HashSet<String> tags = newHashSet<();
+        tags.add("Java");
+        tags.add("Python");
+        tags.add("C++");
+        
+        for (String tag : tags) {
+            System.out.println(tag);
+        }
+    }
+}
